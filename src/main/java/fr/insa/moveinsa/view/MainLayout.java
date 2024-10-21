@@ -26,7 +26,7 @@ public class MainLayout extends AppLayout {
     }
 
     private void createHeader() {
-        H1 logo = new H1("Factory Manager");
+        H1 logo = new H1("MoveINSA");
         logo.addClassNames(
                 LumoUtility.FontSize.LARGE,
                 LumoUtility.Margin.MEDIUM);
@@ -50,7 +50,7 @@ public class MainLayout extends AppLayout {
 
     private void createDrawer() {
         Tabs tabs = new Tabs(
-                createTab(VaadinIcon.HOME, "Retour à la vue principale", DashboardView.class)
+                createTab(VaadinIcon.HOME, "Dashboard", DashboardView.class)
 
 
         );

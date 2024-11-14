@@ -5,6 +5,11 @@
         display: none;
     }
 }
+html {
+    --lumo-primary-color: #e42618;
+    --lumo-primary-color-50pct: rgba(228, 38, 24, 0.5);
+    --lumo-primary-color-10pct: rgba(228, 38, 24, 0.1);
+}
 
 [theme~="dark"] {
     --lumo-primary-color: #06C167;

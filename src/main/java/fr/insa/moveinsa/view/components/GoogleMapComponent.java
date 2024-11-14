@@ -11,15 +11,14 @@ import java.util.Arrays;
 
 public class GoogleMapComponent extends Div {
 
-    public GoogleMapComponent(String apiKey) {
-        GoogleMap gmaps = new GoogleMap(apiKey, null, null);
-        gmaps.setMapType(MapType.SATELLITE);
-        gmaps.setSizeFull();
-        gmaps.setCenter(new LatLon(0, 0));
-        gmaps.addMarker("Center", new LatLon(0, 0), true, "");
-        GoogleMapPolygon gmp = gmaps.addPolygon(Arrays.asList(new GoogleMapPoint(gmaps.getCenter()),
-                new GoogleMapPoint(gmaps.getCenter().getLat(), gmaps.getCenter().getLon() + 1),
-                new GoogleMapPoint(gmaps.getCenter().getLat() + 1, gmaps.getCenter().getLon())));
-        add(gmaps);
-    }
+   public GoogleMapComponent(String apiKey) {
+    GoogleMap gmaps = new GoogleMap(apiKey, null, null);
+    gmaps.setMapType(MapType.SATELLITE);
+    gmaps.setSizeFull();
+    double lat = 48.5839;  // Default coordinates (Strasbourg)
+    double lng = 7.7455;
+    gmaps.setCenter(new LatLon(lat, lng));
+    gmaps.addMarker("Center", new LatLon(lat, lng), true, "");
+    add(gmaps);
+}
 }

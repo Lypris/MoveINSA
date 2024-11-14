@@ -14,7 +14,7 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.web.SecurityFilterChain;
 
 @EnableVaadin
-@SpringBootApplication(exclude = SecurityAutoConfiguration.class)
+@SpringBootApplication()
 @Theme("moveinsa")
 public class MoveinsaApplication extends SpringBootServletInitializer implements AppShellConfigurator {
 

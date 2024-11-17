@@ -7,12 +7,12 @@ MoveINSA est une application web destinée à faciliter la gestion de la mobilit
 ### Informations pratiques
 
 Identifiants de connexion compte administrateur :
-ID : admin
-MDP : adminpass
+- ID : admin
+- MDP : adminpass
 
 Identifiants de connexion compte étudiant :
-ID : student
-MDP : studentpass
+- ID : student
+- MDP : studentpass
 
 ### Fonctionnalités principales
 

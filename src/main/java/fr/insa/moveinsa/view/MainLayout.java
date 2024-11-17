@@ -55,7 +55,7 @@ public class MainLayout extends AppLayout {
             setTheme(e.getValue());
         });
 
-        Button logoutButton = new Button("Sign Out", new Icon(VaadinIcon.SIGN_OUT));
+        Button logoutButton = new Button("Se déconnecter", new Icon(VaadinIcon.SIGN_OUT));
         logoutButton.addClickListener(e -> {
             UI.getCurrent().navigate(LogoutView.class);
         });
@@ -66,7 +66,7 @@ public class MainLayout extends AppLayout {
         );
 
         // login button
-        Button loginButton = new Button("Sign In", new Icon(VaadinIcon.SIGN_IN));
+        Button loginButton = new Button("Connexion", new Icon(VaadinIcon.SIGN_IN));
         loginButton.addClickListener(e -> {
             UI.getCurrent().navigate(LoginView.class);
         });

@@ -9,6 +9,10 @@ html {
     --lumo-primary-color: #e42618;
     --lumo-primary-color-50pct: rgba(228, 38, 24, 0.5);
     --lumo-primary-color-10pct: rgba(228, 38, 24, 0.1);
+    /* Darker shade for hover states */
+    --lumo-primary-color-contrast: #c71b0f;
+    --lumo-primary-text-color: --lumo-primary-color;
+    --lumo-primary-contrast-color: #121212;
 }
 
 [theme~="dark"] {
@@ -144,4 +148,10 @@ vaadin-scroller[slot="drawer"][overflow~="bottom"] {
 [theme~="dark"] #chiffre-affaire-section {
     color: #FFFFFF;
 }
+vaadin-button {
+    background-color: var(--lumo-primary-color);
+}
 
+vaadin-button:hover {
+    background-color: var(--lumo-primary-color-contrast);
+}

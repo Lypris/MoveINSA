@@ -20,5 +20,7 @@ public class LoginView extends Composite<LoginOverlay> {
         getContent().setOpened(true);
         getContent().setAction("login");
         getContent().setTitle("MoveINSA");
+        getContent().setDescription("Connectez-vous pour accéder à MoveINSA");
+        getContent().setForgotPasswordButtonVisible(false);
     }
 }

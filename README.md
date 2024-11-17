@@ -4,6 +4,16 @@
 
 MoveINSA est une application web destinée à faciliter la gestion de la mobilité internationale des étudiants de l'INSA de Strasbourg. L'objectif est de centraliser la gestion des offres de mobilité, les candidatures des étudiants, et les affectations des candidats selon leur score. Le projet intègre une interface intuitive permettant de visualiser les établissements partenaires sur une carte interactive Google Maps et de gérer les différentes étapes du processus de mobilité.
 
+### Informations pratiques
+
+Identifiants de connexion compte administrateur :
+ID : admin
+MDP : adminpass
+
+Identifiants de connexion compte étudiant :
+ID : student
+MDP : studentpass
+
 ### Fonctionnalités principales
 
 - **Visualisation des établissements partenaires** :
